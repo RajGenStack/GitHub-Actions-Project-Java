@@ -9,6 +9,18 @@ A Spring Boot 3 (Java 17) web application that a single GitHub Actions workflow 
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![Amazon EC2](https://img.shields.io/badge/Amazon_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
 
+<p>
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/RajGenStack/GitHub-Actions-Project-Java?style=flat-square&labelColor=0d1117&color=ff6b35">
+  <img alt="Top language" src="https://img.shields.io/github/languages/top/RajGenStack/GitHub-Actions-Project-Java?style=flat-square&labelColor=0d1117&color=8b949e">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/RajGenStack/GitHub-Actions-Project-Java?style=flat-square&labelColor=0d1117&color=8b949e">
+</p>
+
+## What this demonstrates
+
+- One workflow carrying source through to a running container: build, image, registry, remote deploy
+- Keeping registry and SSH credentials in repository secrets rather than in the workflow file
+- Replacing a running container safely on each deploy
+
 ## Workflow
 
 `.github/workflows/cicd.yml` runs on push:
